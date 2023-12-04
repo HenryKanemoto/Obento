@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obento</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/cabecalho.css">
+    <link rel="stylesheet" href="src/styles/explorar.css">
+    <link rel="stylesheet" href="src/styles/populares.css">
+    <link rel="stylesheet" href="src/styles/descontos.css">
+    <link rel="stylesheet" href="src/styles/comidas.css">
+    <link rel="stylesheet" href="src/styles/contatos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!---  alterar o paeça já da section comidas, de âncora para button  -->
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__opcoes">
+            <div class="cabecalho__principal">
+                <img src="src/img/Icons8-Windows-8-Food-Waiter.32.png" alt="Logo Obento">
+                <h2 class="cabecalho__titulo">Obento</h2>
+            </div>
+            <ul class="lista__cabecalho">
+                <li class="cabecalho__item"><a href="#">Início</a></li>
+                <li class="cabecalho__item"><a href="#">Cardápio</a></li>
+                <li class="cabecalho__item"><a href="#">Entrega</a></li>
+                <li class="cabecalho__item"><a href="#">Sobre Nós</a></li>
+            </ul>
+            <div class="cabecalho__interacoes">
+                <div class="cabecalho__pesquisa">
+                    <input type="search" name="q" id="CampoPesquisa" placeholder="Pequisar" class="pesquisa__barra">
+                    <img src="src/img/Github-Octicons-Search-24.16.png" alt="Ícone de pessuqisa">
+                </div>
+                <div class="cabecalho__conta">
+                    <a href="#"><img src="src/img/Amitjakhu-Drip-Cart.24.png" alt=""></a>
+                    <a href="#"><img src="src/img/Pictogrammers-Material-Account.24.png" alt=""></a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="container__explorar">
+            <div class="explorar__descricao">
+                <h1 class="explorar__titulo">
+                    Insira texto <span class="explorar__titulo-destaque">AQUI<span>
+                </h1>
+                <p class="explorar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id asperiores temporibus maiores repellendus odit repellat deserunt commodi quo iste? Dolore quam voluptatem saepe ad, officiis cum? Nihil reiciendis voluptatem culpa?</p>
+                <a href="#" class="explorar__botao">PEÇA JÁ</a>
+            </div>
+            <img src="src/img/Pictogrammers-Material-Noodles.128.png" alt="">
+        </section>
+        <section class="container__populares">
+            <div class="populares__conteudo">
+                <h2 class="populares__titulo">Pratos Populares</h2>
+                <ul class="lista__populares">
+                    <li class="populares__item">
+                        <img src="" alt="Foto de prato popular" class="populares__imagem">
+                        <h3 class="populares__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="populares__compra">
+                            <button class="populares__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="populares__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="populares__item">
+                        <img src="" alt="Foto de prato popular" class="populares__imagem">
+                        <h3 class="populares__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="populares__compra">
+                            <button class="populares__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="populares__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="populares__item">
+                        <img src="" alt="Foto de prato popular" class="populares__imagem">
+                        <h3 class="populares__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="populares__compra">
+                            <button class="populares__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="populares__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container__descontos">
+            <div class="descontos__caixa">
+                <div class="descontos__texto">
+                    <h3 class="descontos__titulo">
+                        <span class="descontos__titulo-destaque">XX%</span>
+                        de desconto nas
+                        <span class="descontos__titulo-destaque">Terça-Feira</span>
+                    </h3>
+                    <p class="descontos__descricao">produto1, produto 2, produto 3, estarão em promoção nas terças!</p>
+                    <a href="#" class="descontos__botao">Pedir já</a>
+                </div>
+            </div>
+        </section>
+        <section class="container__comidas">
+            <div class="comidas__conteudo">
+                <h3 class="comidas__titulo">Nossos itens</h3>
+                <h4 class="lista__comidas__titulo">Yakisoba</h4>
+                <ul class="lista__comidas">
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button href="#" class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                </ul>
+                <h4 class="lista__comidas__titulo">Karê</h4>
+                <ul class="lista__comidas">
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button href="#" class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                </ul>
+                <h4 class="lista__comidas__titulo">Udon</h4>
+                <ul class="lista__comidas">
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button href="#" class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                </ul>
+                <h4 class="lista__comidas__titulo">Bentô</h4>
+                <ul class="lista__comidas">
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button href="#" class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                </ul>
+                <h4 class="lista__comidas__titulo">Missoshiro</h4>
+                <ul class="lista__comidas">
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button href="#" class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                    <li class="comidas__item">
+                        <img src="" alt="Foto de prato" class="comidas__imagem">
+                        <h3 class="comidas__item__titulo">Nome do Prato  Aqui</h3>
+                        <div class="comidas__compra">
+                            <button class="comidas__carrinho">Adicionar ao Carrinho</button>
+                            <h4 class="comidas__preço">R$ 45,00</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+             
+        </section>
+    </main>
+    <footer class="container__contatos">
+
+        <div class="contatos__conteudo">
+
+            <div class="contatos__superior">
+
+                <div class="contatos__descricao">
+                    <div class="contatos__logo-titulo">
+                        <img src="src/img/Icons8-Windows-8-Food-Waiter.32.png" alt="Logo Obento" class="contatos__logo">
+                        <h2 class="contatos__titulo">Oben<span class="contatos__titulo-destaque">to</span></h2>
+                    </div>
+                    <p class="contatos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit dolor enim placeat. Quis, nulla ut temporibus necessitatibus, vero tenetur sequi sunt molestias perspiciatis quos enim exercitationem sint error neque ullam?</p>
+                </div>
+            </div>
+
+            <div class="contatos__infereior">
+                <div class="contatos__links">
+                    <ul class="contatos__lista">
+                        <h3 class="contatos__lista__titulo">Sobre</h3>
+                        <li class="contatos__item">
+                            <a href="#"  class="contatos__link">Sobre Nós</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Mais Pesquisados</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Depoimento</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Eventos</a>
+                        </li>
+                    </ul>
+                    <ul class="contatos__lista">
+                        <h3 class="contatos__lista__titulo">Nosso Menu</h3>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Pratos</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Acompanhamentos</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Bebidas</a>
+                        </li>
+                    </ul>
+                    <ul class="contatos__lista">
+                        <h3 class="contatos__lista__titulo">Política de Privacidade</h3>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Termos de Condições</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Segurança</a>
+                        </li>
+                        <li class="contatos__item">
+                            <a href="#" class="contatos__link">Política de Privacidade</a>
+                        </li>
+                    </ul>
+                    <ul class="contatos__lista contatos__contatar">
+                        <h3 class="contatos__lista__titulo">Contate-nos</h3>
+                        <li class="contatos__item">
+                            <img src="" alt="">
+                            <a href="#" class="contatos__link">(96)123123-1231</a>
+                        </li>
+                        <li class="contatos__item">
+                            <img src="" alt="">
+                            <a href="#" class="contatos__link">Obento_email@gmail.com</a>
+                        </li>
+                        <li class="contatos__item">
+                            <img src="" alt="">
+                            <a href="#" class="contatos__link">Rua do restaurante 123, bairro do restaurante</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

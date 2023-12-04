@@ -1,0 +1,68 @@
+.container__comidas{
+    border-bottom: 2px solid var(--rosa-main);
+}
+.comidas__conteudo{
+    margin: 0 2em 0 2em;
+}
+.comidas__titulo{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--rosa-dark);
+    padding-bottom: 1em;
+}
+.comidas__item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1em;
+    padding: 1em;
+    border: 1px solid var(--rosa-main);
+    border-radius: 8px;
+}
+.comidas__compra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comidas__item__titulo{
+    font-size: 16px;
+    font-weight: 400;
+}
+.comidas__carrinho{
+    color: var(--preto);
+    background-color: var(--rosa-main);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-right: 1rem;
+    border: 1px solid var(--rosa-dark);
+    border-radius: 6px;
+}
+.comidas__imagem{
+    margin: auto;
+}
+.lista__comidas{
+    width: auto;
+    display: flex;
+    gap: 3em;
+    overflow: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.lista__comidas__titulo{
+    color: var(--rosa-dark);
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--rosa-dark);
+}
+.comidas__preço{
+    width: auto;
+    text-wrap: nowrap;
+}
+.comidas__carrinho:hover{
+    color: var(--branco-bg);
+    background-color: var(--rosa-dark);
+}
