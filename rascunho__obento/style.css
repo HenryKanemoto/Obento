@@ -1,0 +1,26 @@
+:root{
+    --branco-bg: #F9F5F6;
+    --rosa-main: #F2BED1;
+    --rosa-dark: #F875AA;
+    --rosa-claro: #F8E8EE;
+    --preto:#000000;
+    --amarelo: #FFCD4B;
+    --fonte-main: 'Kanit', sans-serif;
+}
+::-webkit-scrollbar{
+    background-color: var(--rosa-main);
+    width: 5px;
+    border-radius: 16px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--rosa-dark);
+    border-radius: 16px;
+}
+body{
+    font-family: var(--fonte-main);
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--branco-bg);
+    width: auto;
+    padding-top: 5rem;
+}
